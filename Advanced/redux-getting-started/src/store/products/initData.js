@@ -1,6 +1,7 @@
+import { v4 as uuidv4 } from 'uuid';
 const products = [
     {
-        id: 1,
+        id: uuidv4(),
         category: "Điện thoại Smartphone",
         preview: "https://salt.tikicdn.com/cache/280x280/ts/product/6a/ae/73/dca08fe3804172059e7d19a962648fe5.png",
         price: 40990000,
@@ -8,7 +9,7 @@ const products = [
         name: "Điện thoại Samsung Galaxy Z Fold 4 (12GB/256GB) - Hàng chính hãng"
     },
     {
-        id: 2,
+        id: uuidv4(),
         category: "Điện thoại Smartphone",
         preview: "https://salt.tikicdn.com/cache/280x280/ts/product/ff/56/67/e3b9ff9622ed61e1ee11bf2297bcc2d8.png",
         price: 32990000,
@@ -16,7 +17,7 @@ const products = [
         name: "Apple iPhone 14 Pro"
     },
     {
-        id: 3,
+        id: uuidv4(),
         category: "Thiết Bị Số",
         preview: "https://salt.tikicdn.com/cache/280x280/ts/product/57/10/d8/1ce4259d9fe8c0200da3240f0973176a.jpg",
         price: 11990000,
@@ -24,7 +25,7 @@ const products = [
         name: "Đồng hồ thông minh Samsung Galaxy Watch 5 Pro Bluetooth (45mm) R920 - Hàng Chính Hãng"
     },
     {
-        id: 4,
+        id: uuidv4(),
         category: "Thiết Bị Số",
         preview: "https://salt.tikicdn.com/cache/280x280/ts/product/4e/a1/63/0a11604a254f76c93add93682c165343.png",
         price: 2940000,
@@ -32,7 +33,7 @@ const products = [
         name: "Card âm thanh Behringer U-PHORIA UMC204HD -Hàng Chính Hãng"
     },
     {
-        id: 5,
+        id: uuidv4(),
         category: "Thiết bị gia đình",
         preview: "https://salt.tikicdn.com/cache/280x280/ts/product/13/af/19/a9ff9d5460a27403964002818d975feb.jpg",
         price: 10534000,

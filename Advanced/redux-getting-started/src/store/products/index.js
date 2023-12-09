@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
+import { v4 as uuidv4 } from 'uuid';
 import products from './initData';
-const id = 5;
 
 export const productsSlice = createSlice({
   name: 'products',
@@ -9,7 +9,7 @@ export const productsSlice = createSlice({
   },
   reducers: {
     addProduct: (state, action) => {
-      id++;
+      uuidv4();
       state.products.push({
         ...action.payload,
         id,
